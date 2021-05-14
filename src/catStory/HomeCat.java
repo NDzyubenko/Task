@@ -1,6 +1,6 @@
 package catStory;
 public class HomeCat extends Cat {
-    private Master master;
+    private final Master master;
 
     public HomeCat(String Name, String Breed, Master master) {
         this.Name = Name;

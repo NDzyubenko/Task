@@ -1,6 +1,6 @@
 package catStory;
 public class Master {
-    private String Name;
+    private final String Name;
     private int usd;
     private int shoes_cost;
 

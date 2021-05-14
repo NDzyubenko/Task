@@ -3,9 +3,10 @@ import catStory.Master;
 import catStory.WildCat;
 import java.util.Random;
 
-public class Story {
-
-    public static void main(String[] args) {
+public class Story
+{
+    public static void tellStory()
+    {
         Random random = new Random();
         Master master = new Master("Denis",1000 + random.nextInt(3000), 20 + random.nextInt(200));
         Master master1 = new Master("Maxim",1000 + random.nextInt(3000), 20 + random.nextInt(200));
@@ -52,6 +53,10 @@ public class Story {
         cat2.saveWorld();
         System.out.println("Glory to the super-cat! " + cat2.getName() + "!\n");
         System.out.println("THE END!");
+    }
+    public static void main(String[] args)
+    {
+        Story.tellStory();
     }
 
 }
