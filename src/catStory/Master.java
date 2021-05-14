@@ -27,7 +27,4 @@ public class Master {
         this.shoesCost = shoesCost;
     }
 
-    public int getShoesCost(){
-        return shoesCost;
-    }
 }
