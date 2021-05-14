@@ -2,22 +2,22 @@ package catStory;
 public class HomeCat extends Cat {
     private final Master master;
 
-    public HomeCat(String Name, String Breed, Master master) {
-        this.Name = Name;
-        this.Breed = Breed;
+    public HomeCat(String name, String breed, Master master) {
+        this.name = name;
+        this.breed = breed;
         this.master = master;
     }
 
     public String getName(){
-        return Name;
+        return name;
     }
 
     public String getBreed(){
-        return Breed;
+        return breed;
     }
 
     public void layOnSofa() {
-        System.out.println(Name + ": Meow!\n");
+        System.out.println(name + ": Meow!\n");
     }
 
     public void spoilShoes() {

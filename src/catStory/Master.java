@@ -1,12 +1,12 @@
 package catStory;
 public class Master {
-    private final String Name;
+    private final String name;
     private int usd;
-    private int shoes_cost;
+    private int shoesCost;
 
-    public Master(String Name, int usd, int shoes_cost) {
-        this.shoes_cost = shoes_cost;
-        this.Name = Name;
+    public Master(String name, int usd, int shoesCost) {
+        this.shoesCost = shoesCost;
+        this.name = name;
         this.usd = usd;
     }
 
@@ -15,19 +15,19 @@ public class Master {
     }
 
     public String getName(){
-        return Name;
+        return name;
     }
 
     public void decreaseMoney() {
-        System.out.println(Name + ": Fuck! My " + shoes_cost + "$ sneakers! \n");
-        usd -= shoes_cost;
+        System.out.println(name + ": Fuck! My " + shoesCost + "$ sneakers! \n");
+        usd -= shoesCost;
     }
 
-    public void setShoes_cost(int shoes_cost){
-        this.shoes_cost = shoes_cost;
+    public void setShoesCost(int shoesCost){
+        this.shoesCost = shoesCost;
     }
 
-    public int getShoes_cost(){
-        return shoes_cost;
+    public int getShoesCost(){
+        return shoesCost;
     }
 }
