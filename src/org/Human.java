@@ -7,17 +7,17 @@
 package org;
 
 public class Human {
-    int hairLength;
+  int hairLength;
 
-    public Human(int hairLength) {
-        this.hairLength = hairLength;
-    }
+  public Human(int hairLength) {
+    this.hairLength = hairLength;
+  }
 
-    int getHairLength() {
-        return hairLength;
-    }
+  int getHairLength() {
+    return hairLength;
+  }
 
-    public void setHairLength(int hairLength) {
-        this.hairLength = hairLength;
-    }
+  public void setHairLength(int hairLength) {
+    this.hairLength = hairLength;
+  }
 }

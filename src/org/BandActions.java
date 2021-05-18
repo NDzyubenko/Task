@@ -7,11 +7,11 @@
 package org;
 
 public interface BandActions {
-    int membersAmount = 4;
+  String getMembersName();
 
-    void play();
+  void play();
 
-    default void drinkBeer() {
-        System.out.println("mmmmm, yummy bear");
-    }
+  default void drinkBeer() {
+    System.out.println("mmmmm, yummy bear");
+  }
 }

@@ -7,17 +7,21 @@
 package org;
 
 public class PianoPlayer extends Human implements BandActions {
-    public PianoPlayer(int hairLength) {
-        super(hairLength);
-    }
+  public PianoPlayer(int hairLength) {
+    super(hairLength);
+  }
 
-    public void play() {
-        System.out.println("pam pam pam pam");
-    }
+  public String getMembersName() {
+    return "Dima";
+  }
 
-    public void play(String pianoSound, int countSound) {
-        for (int i = 0; i < countSound; i++) {
-            System.out.println(pianoSound);
-        }
+  public void play() {
+    System.out.println("pam pam pam pam");
+  }
+
+  public void play(String pianoSound, int countSound) {
+    for (int i = 0; i < countSound; i++) {
+      System.out.println(pianoSound);
     }
+  }
 }
