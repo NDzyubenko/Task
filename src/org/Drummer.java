@@ -7,19 +7,15 @@
 package org;
 
 public class Drummer extends Human implements BandActions {
-  public Drummer(int hairLength) {
-    super(hairLength);
-  }
+    public Drummer(int hairLength) {
+        super(hairLength);
+    }
 
-  public String getMembersName() {
-    return "Maxim";
-  }
+    public void play() {
+        System.out.println("bd bd bd bd bd tssssss");
+    }
 
-  public void play() {
-    System.out.println("bd bd bd bd bd tssssss");
-  }
-
-  public void play(String sound) {
-    System.out.println(sound);
-  }
+    public void play(String sound) {
+        System.out.println(sound);
+    }
 }

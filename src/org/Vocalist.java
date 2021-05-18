@@ -7,25 +7,21 @@
 package org;
 
 public class Vocalist extends Human implements BandActions {
-  public Vocalist(int hairLength) {
-    super(hairLength);
-  }
-
-  public String getMembersName() {
-    return "Stepan";
-  }
-
-  public void play() {
-    System.out.println("Hey aaaaaa, ooooooooooo");
-  }
-
-  public void play(int n) {
-    for (int i = 0; i < n; i++) {
-      if (i % 2 == 0) {
-        play();
-      } else {
-        System.out.println("Maria hi, Maria hu, MARIA HA HA!");
-      }
+    public Vocalist(int hairLength) {
+        super(hairLength);
     }
-  }
+
+    public void play() {
+        System.out.println("Hey aaaaaa, ooooooooooo");
+    }
+
+    public void play(int n) {
+        for (int i = 0; i < n; i++) {
+            if (i % 2 == 0) {
+                play();
+            } else {
+                System.out.println("Maria hi, Maria hu, MARIA HA HA!");
+            }
+        }
+    }
 }
